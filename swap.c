@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//change of program//
 void swap (int *x, int *y)
 {
 	int temp = *x;
@@ -7,7 +7,7 @@ void swap (int *x, int *y)
 	*y = temp;
 }
 
-void main() 
+void main()
 {
 	int x = 10;
 	int y = 5;
@@ -17,7 +17,7 @@ void main()
 
 	// add swap logic here
 	swap(&x, &y);
-	
+
 	printf("\n Values after swapping");
 	printf("\n X: %d\n Y: %d\n", x, y);
 }
